@@ -1,0 +1,105 @@
+html{
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+header{
+    height: 60px;
+    background-color: purple;
+    color: whitesmoke;
+    box-shadow: 0 0 5px #000;
+}
+
+ul{
+    float: right;
+    position: relative;
+    right: 10%;
+}
+
+ul li{
+    display: inline;
+    list-style: none;
+    padding: 10px;
+    
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+    
+}
+ul li a:hover{
+    color: rgb(0, 0, 0);
+    
+}
+
+footer{
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    height: 40px;
+    background-color: purple;
+    color: whitesmoke;
+    box-shadow: 0 0 5px #000;
+    text-align: center;
+    margin: 0 auto;
+}
+h1{
+    text-transform: uppercase;
+    font-size: 48px;
+    color: purple
+}
+p a{
+    color: purple;
+}
+div {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+input{
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    box-shadow: 0 0 5px #afc2d0;
+    width: 240px;
+    height: 30px;
+    background-color: #f2f2f2;
+}
+button{
+    width: 240px;
+    height: 50px;
+    background-color: purple;
+    color: whitesmoke;
+    font-size: 16px;
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+
+}
+.logged-in, .welcome-message{
+    margin: 0 auto;
+    text-align: center;
+    background-color: black;
+    color: greenyellow;
+    font-size: 72px;
+    height:100px;
+}
+
+
+.welcome-message, .logged-in {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(60, 50, 60);
+    overflow: hidden;
+}
+

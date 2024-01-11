@@ -87,7 +87,7 @@ button{
     margin: 0 auto;
     text-align: center;
     background-color: black;
-    color: greenyellow;
+    color: rgb(64, 58, 235);
     font-size: 72px;
     height:100px;
 }
@@ -99,7 +99,25 @@ button{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(60, 50, 60);
+    background-color: rgb(0, 0, 0);
     overflow: hidden;
 }
 
+.logout{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: purple;
+    color: rgb(255, 255, 255);
+    height: 50px; /* Adjust the height as needed */
+    width: 150px; /* Adjust the width as needed */
+    margin: auto; /* This centers the button horizontally */
+    position: absolute;
+    top: 70%; /* This centers the button vertically */
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+ button a{
+    text-decoration: none;
+    color: white;
+ }
